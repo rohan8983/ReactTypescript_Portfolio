@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react", //jsx:react Adds support for JSX in .tsx files.
+    "module": "CommonJS", //module Generates module code.
+    "noImplicitAny": true, //noImplicitAny Raises errors for declarations with an implied any type.
+    "outDir": "./build/", //outDir Represents the output directory.
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true, //sourceMap Generates a .map file, which can be very useful for debugging the app.
+    "target": "ES5" //target Represents the target ECMAScript version to transpile our code down to (we can add a version based on our specific browser requirements).
+  }, //compilerOptions - Represents the different compiler options
+  "include": ["src/components/index.tsx"] //include Used to specify the file list to be included.
+}
